@@ -1,0 +1,10 @@
+C:\Users\adnan\source\repos\b191210307_odev3\bin\Debug\b191210307_odev3.exe.config
+C:\Users\adnan\source\repos\b191210307_odev3\bin\Debug\b191210307_odev3.exe
+C:\Users\adnan\source\repos\b191210307_odev3\bin\Debug\b191210307_odev3.pdb
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.csprojAssemblyReference.cache
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.Form1.resources
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.Properties.Resources.resources
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.csproj.GenerateResource.cache
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.exe
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.pdb
+C:\Users\adnan\source\repos\b191210307_odev3\obj\Debug\b191210307_odev3.Alert.resources
