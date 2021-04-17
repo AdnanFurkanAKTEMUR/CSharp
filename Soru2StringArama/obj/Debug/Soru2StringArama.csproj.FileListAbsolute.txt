@@ -1,0 +1,7 @@
+C:\Users\adnan\source\repos\Soru2StringArama\bin\Debug\Soru2StringArama.exe.config
+C:\Users\adnan\source\repos\Soru2StringArama\bin\Debug\Soru2StringArama.exe
+C:\Users\adnan\source\repos\Soru2StringArama\bin\Debug\Soru2StringArama.pdb
+C:\Users\adnan\source\repos\Soru2StringArama\obj\Debug\Soru2StringArama.csprojAssemblyReference.cache
+C:\Users\adnan\source\repos\Soru2StringArama\obj\Debug\Soru2StringArama.csproj.CoreCompileInputs.cache
+C:\Users\adnan\source\repos\Soru2StringArama\obj\Debug\Soru2StringArama.exe
+C:\Users\adnan\source\repos\Soru2StringArama\obj\Debug\Soru2StringArama.pdb

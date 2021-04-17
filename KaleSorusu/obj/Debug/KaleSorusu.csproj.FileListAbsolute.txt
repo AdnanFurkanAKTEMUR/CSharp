@@ -1,0 +1,7 @@
+C:\Users\adnan\source\repos\KaleSorusu\bin\Debug\KaleSorusu.exe.config
+C:\Users\adnan\source\repos\KaleSorusu\bin\Debug\KaleSorusu.exe
+C:\Users\adnan\source\repos\KaleSorusu\bin\Debug\KaleSorusu.pdb
+C:\Users\adnan\source\repos\KaleSorusu\obj\Debug\KaleSorusu.csprojAssemblyReference.cache
+C:\Users\adnan\source\repos\KaleSorusu\obj\Debug\KaleSorusu.csproj.CoreCompileInputs.cache
+C:\Users\adnan\source\repos\KaleSorusu\obj\Debug\KaleSorusu.exe
+C:\Users\adnan\source\repos\KaleSorusu\obj\Debug\KaleSorusu.pdb

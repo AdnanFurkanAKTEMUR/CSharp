@@ -1,0 +1,7 @@
+C:\Users\adnan\source\repos\BagPack\bin\Debug\BagPack.exe.config
+C:\Users\adnan\source\repos\BagPack\bin\Debug\BagPack.exe
+C:\Users\adnan\source\repos\BagPack\bin\Debug\BagPack.pdb
+C:\Users\adnan\source\repos\BagPack\obj\Debug\BagPack.csprojAssemblyReference.cache
+C:\Users\adnan\source\repos\BagPack\obj\Debug\BagPack.csproj.CoreCompileInputs.cache
+C:\Users\adnan\source\repos\BagPack\obj\Debug\BagPack.exe
+C:\Users\adnan\source\repos\BagPack\obj\Debug\BagPack.pdb
