@@ -1,0 +1,15 @@
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.exe
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.deps.json
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.runtimeconfig.json
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.runtimeconfig.dev.json
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.dll
+C:\Users\adnan\source\repos\MeyveSikacagi\bin\Debug\netcoreapp3.1\MeyveSikacagi.pdb
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.csprojAssemblyReference.cache
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.Form1.resources
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.csproj.GenerateResource.cache
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.AssemblyInfoInputs.cache
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.AssemblyInfo.cs
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.csproj.CoreCompileInputs.cache
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.dll
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.pdb
+C:\Users\adnan\source\repos\MeyveSikacagi\obj\Debug\netcoreapp3.1\MeyveSikacagi.genruntimeconfig.cache
