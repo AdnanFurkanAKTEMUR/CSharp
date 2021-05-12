@@ -4,16 +4,16 @@ using System.Text;
 
 namespace MeyveSikacagi
 {
-    class Cilek:IKatiMeyveler
+    class Armut:IKatiMeyveler
     {
         public double VitA { get; set; }
         public double VitC { get; set; }
         public int agirlik { get; set; }
         public double verim { get; set; }
-        
+
         Random rnd;
 
-        public Cilek()
+        public Armut()
         {
             rnd = new Random();
             agirlik = rnd.Next(70, 120);
@@ -28,13 +28,13 @@ namespace MeyveSikacagi
 
         public double VitAHesapla(double verim)
         {
-            VitA = (verim * 12) / 100;
+            VitA = (verim * 25) / 100;
             return VitA;
         }
 
         public double VitCHesapla(double verim)
         {
-            VitC = (verim * 60) / 100;
+            VitC = (verim * 5) / 100;
             return VitC;
         }
     }

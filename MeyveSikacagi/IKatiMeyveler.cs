@@ -8,6 +8,6 @@ namespace MeyveSikacagi
     {
         double VerimHesapla();
         double VitAHesapla(double verim);
-        double VitBHesapla(double verim);
+        double VitCHesapla(double verim);
     }
 }

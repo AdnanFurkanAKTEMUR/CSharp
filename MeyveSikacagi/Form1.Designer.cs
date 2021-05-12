@@ -53,6 +53,8 @@ namespace MeyveSikacagi
             this.kl_lbl = new System.Windows.Forms.Label();
             this.KalanSaniye_lbl = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.dsasd = new System.Windows.Forms.Label();
+            this.meyveAgirlik_lbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,6 +63,7 @@ namespace MeyveSikacagi
             this.pictureBox1.Location = new System.Drawing.Point(25, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(213, 259);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -72,6 +75,7 @@ namespace MeyveSikacagi
             this.Basla_btn.TabIndex = 1;
             this.Basla_btn.Text = "Başla";
             this.Basla_btn.UseVisualStyleBackColor = true;
+            this.Basla_btn.Click += new System.EventHandler(this.Basla_btn_Click);
             // 
             // Bekle_btn
             // 
@@ -81,6 +85,7 @@ namespace MeyveSikacagi
             this.Bekle_btn.TabIndex = 2;
             this.Bekle_btn.Text = "Bekle";
             this.Bekle_btn.UseVisualStyleBackColor = true;
+            this.Bekle_btn.Click += new System.EventHandler(this.Bekle_btn_Click);
             // 
             // narenciye_btn
             // 
@@ -90,6 +95,7 @@ namespace MeyveSikacagi
             this.narenciye_btn.TabIndex = 3;
             this.narenciye_btn.Text = "Narenciye Sık";
             this.narenciye_btn.UseVisualStyleBackColor = true;
+            this.narenciye_btn.Click += new System.EventHandler(this.narenciye_btn_Click);
             // 
             // kati_meyve_btn
             // 
@@ -99,6 +105,7 @@ namespace MeyveSikacagi
             this.kati_meyve_btn.TabIndex = 4;
             this.kati_meyve_btn.Text = "Katı Meyve Sık";
             this.kati_meyve_btn.UseVisualStyleBackColor = true;
+            this.kati_meyve_btn.Click += new System.EventHandler(this.kati_meyve_btn_Click);
             // 
             // label1
             // 
@@ -114,7 +121,7 @@ namespace MeyveSikacagi
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(756, 75);
+            this.label2.Location = new System.Drawing.Point(756, 94);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(54, 20);
             this.label2.TabIndex = 6;
@@ -124,7 +131,7 @@ namespace MeyveSikacagi
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(725, 105);
+            this.label3.Location = new System.Drawing.Point(725, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 20);
             this.label3.TabIndex = 7;
@@ -134,7 +141,7 @@ namespace MeyveSikacagi
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(726, 141);
+            this.label4.Location = new System.Drawing.Point(726, 160);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(84, 20);
             this.label4.TabIndex = 8;
@@ -144,7 +151,7 @@ namespace MeyveSikacagi
             // 
             this.sonVerim_lbl.AutoSize = true;
             this.sonVerim_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.sonVerim_lbl.Location = new System.Drawing.Point(844, 75);
+            this.sonVerim_lbl.Location = new System.Drawing.Point(844, 94);
             this.sonVerim_lbl.Name = "sonVerim_lbl";
             this.sonVerim_lbl.Size = new System.Drawing.Size(15, 20);
             this.sonVerim_lbl.TabIndex = 9;
@@ -154,7 +161,7 @@ namespace MeyveSikacagi
             // 
             this.sonAV_lbl.AutoSize = true;
             this.sonAV_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.sonAV_lbl.Location = new System.Drawing.Point(844, 105);
+            this.sonAV_lbl.Location = new System.Drawing.Point(844, 124);
             this.sonAV_lbl.Name = "sonAV_lbl";
             this.sonAV_lbl.Size = new System.Drawing.Size(15, 20);
             this.sonAV_lbl.TabIndex = 10;
@@ -164,7 +171,7 @@ namespace MeyveSikacagi
             // 
             this.sonCV_lbl.AutoSize = true;
             this.sonCV_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.sonCV_lbl.Location = new System.Drawing.Point(844, 141);
+            this.sonCV_lbl.Location = new System.Drawing.Point(844, 160);
             this.sonCV_lbl.Name = "sonCV_lbl";
             this.sonCV_lbl.Size = new System.Drawing.Size(15, 20);
             this.sonCV_lbl.TabIndex = 11;
@@ -174,27 +181,27 @@ namespace MeyveSikacagi
             // 
             this.toplamCV_lbl.AutoSize = true;
             this.toplamCV_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.toplamCV_lbl.Location = new System.Drawing.Point(844, 292);
+            this.toplamCV_lbl.Location = new System.Drawing.Point(844, 311);
             this.toplamCV_lbl.Name = "toplamCV_lbl";
-            this.toplamCV_lbl.Size = new System.Drawing.Size(15, 20);
+            this.toplamCV_lbl.Size = new System.Drawing.Size(17, 20);
             this.toplamCV_lbl.TabIndex = 18;
-            this.toplamCV_lbl.Text = "-";
+            this.toplamCV_lbl.Text = "0";
             // 
             // toplamAV_lbl
             // 
             this.toplamAV_lbl.AutoSize = true;
             this.toplamAV_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.toplamAV_lbl.Location = new System.Drawing.Point(844, 256);
+            this.toplamAV_lbl.Location = new System.Drawing.Point(844, 275);
             this.toplamAV_lbl.Name = "toplamAV_lbl";
-            this.toplamAV_lbl.Size = new System.Drawing.Size(15, 20);
+            this.toplamAV_lbl.Size = new System.Drawing.Size(17, 20);
             this.toplamAV_lbl.TabIndex = 17;
-            this.toplamAV_lbl.Text = "-";
+            this.toplamAV_lbl.Text = "0";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label8.Location = new System.Drawing.Point(726, 292);
+            this.label8.Location = new System.Drawing.Point(726, 311);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(84, 20);
             this.label8.TabIndex = 15;
@@ -204,7 +211,7 @@ namespace MeyveSikacagi
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label9.Location = new System.Drawing.Point(725, 256);
+            this.label9.Location = new System.Drawing.Point(725, 275);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(85, 20);
             this.label9.TabIndex = 14;
@@ -214,7 +221,7 @@ namespace MeyveSikacagi
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label11.Location = new System.Drawing.Point(726, 204);
+            this.label11.Location = new System.Drawing.Point(726, 223);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(267, 20);
             this.label11.TabIndex = 12;
@@ -224,7 +231,7 @@ namespace MeyveSikacagi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(725, 332);
+            this.label5.Location = new System.Drawing.Point(725, 351);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(147, 20);
             this.label5.TabIndex = 19;
@@ -234,7 +241,7 @@ namespace MeyveSikacagi
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(726, 370);
+            this.label6.Location = new System.Drawing.Point(726, 389);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(59, 20);
             this.label6.TabIndex = 20;
@@ -244,11 +251,11 @@ namespace MeyveSikacagi
             // 
             this.toplamMeyve_lbl.AutoSize = true;
             this.toplamMeyve_lbl.ForeColor = System.Drawing.Color.Blue;
-            this.toplamMeyve_lbl.Location = new System.Drawing.Point(791, 370);
+            this.toplamMeyve_lbl.Location = new System.Drawing.Point(791, 389);
             this.toplamMeyve_lbl.Name = "toplamMeyve_lbl";
-            this.toplamMeyve_lbl.Size = new System.Drawing.Size(15, 20);
+            this.toplamMeyve_lbl.Size = new System.Drawing.Size(17, 20);
             this.toplamMeyve_lbl.TabIndex = 21;
-            this.toplamMeyve_lbl.Text = "-";
+            this.toplamMeyve_lbl.Text = "0";
             // 
             // kl_lbl
             // 
@@ -270,11 +277,38 @@ namespace MeyveSikacagi
             this.KalanSaniye_lbl.TabIndex = 23;
             this.KalanSaniye_lbl.Text = "-";
             // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // dsasd
+            // 
+            this.dsasd.AutoSize = true;
+            this.dsasd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.dsasd.Location = new System.Drawing.Point(747, 62);
+            this.dsasd.Name = "dsasd";
+            this.dsasd.Size = new System.Drawing.Size(59, 20);
+            this.dsasd.TabIndex = 24;
+            this.dsasd.Text = "Ağırlık :";
+            // 
+            // meyveAgirlik_lbl
+            // 
+            this.meyveAgirlik_lbl.AutoSize = true;
+            this.meyveAgirlik_lbl.ForeColor = System.Drawing.Color.Blue;
+            this.meyveAgirlik_lbl.Location = new System.Drawing.Point(844, 62);
+            this.meyveAgirlik_lbl.Name = "meyveAgirlik_lbl";
+            this.meyveAgirlik_lbl.Size = new System.Drawing.Size(15, 20);
+            this.meyveAgirlik_lbl.TabIndex = 25;
+            this.meyveAgirlik_lbl.Text = "-";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1076, 450);
+            this.Controls.Add(this.meyveAgirlik_lbl);
+            this.Controls.Add(this.dsasd);
             this.Controls.Add(this.KalanSaniye_lbl);
             this.Controls.Add(this.kl_lbl);
             this.Controls.Add(this.toplamMeyve_lbl);
@@ -330,6 +364,8 @@ namespace MeyveSikacagi
         private System.Windows.Forms.Label kl_lbl;
         private System.Windows.Forms.Label KalanSaniye_lbl;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label dsasd;
+        private System.Windows.Forms.Label meyveAgirlik_lbl;
     }
 }
 
