@@ -6,11 +6,12 @@ namespace MeyveSikacagi
 {
     class Cilek:IKatiMeyveler
     {
-        public double VitA { get; set; }
-        public double VitC { get; set; }
         public int agirlik { get; set; }
-        public double verim { get; set; }
         
+        private double _VitA;
+        private double _VitC;
+        private double _verim;
+
         Random rnd;
 
         public Cilek()
@@ -22,20 +23,20 @@ namespace MeyveSikacagi
         public double VerimHesapla()
         {
             int yuzde = rnd.Next(80, 95);
-            verim = Convert.ToDouble((agirlik * yuzde) / 100);
-            return verim;
+            _verim = Convert.ToDouble((agirlik * yuzde) / 100);
+            return _verim;
         }
 
         public double VitAHesapla(double verim)
         {
-            VitA = (verim * 12) / 100;
-            return VitA;
+            _VitA = (verim * 12) / 100;
+            return _VitA;
         }
 
         public double VitCHesapla(double verim)
         {
-            VitC = (verim * 60) / 100;
-            return VitC;
+            _VitC = (verim * 60) / 100;
+            return _VitC;
         }
     }
 }
